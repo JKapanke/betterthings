@@ -9,10 +9,37 @@
 /* Begin PBXBuildFile section */
 		77306CB51A14538200969E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77306CB41A14538200969E73 /* AppDelegate.swift */; };
 		77306CB71A14538200969E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77306CB61A14538200969E73 /* ViewController.swift */; };
-		77306CBA1A14538200969E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77306CB81A14538200969E73 /* Main.storyboard */; };
 		77306CBC1A14538200969E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77306CBB1A14538200969E73 /* Images.xcassets */; };
-		77306CBF1A14538200969E73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77306CBD1A14538200969E73 /* LaunchScreen.xib */; };
 		77306CCB1A14538200969E73 /* WorldTravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77306CCA1A14538200969E73 /* WorldTravelerTests.swift */; };
+		774F33221A7B25AA00B58226 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33131A7B25AA00B58226 /* Activity.swift */; };
+		774F33241A7B25AA00B58226 /* australia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33151A7B25AA00B58226 /* australia.jpg */; };
+		774F33251A7B25AA00B58226 /* Australia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33161A7B25AA00B58226 /* Australia.swift */; };
+		774F33281A7B25AA00B58226 /* brazil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F331C1A7B25AA00B58226 /* brazil.jpg */; };
+		774F33291A7B25AA00B58226 /* Brazil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F331D1A7B25AA00B58226 /* Brazil.swift */; };
+		774F332A1A7B25AA00B58226 /* canada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F331E1A7B25AA00B58226 /* canada.jpg */; };
+		774F332B1A7B25AA00B58226 /* Canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F331F1A7B25AA00B58226 /* Canada.swift */; };
+		774F332C1A7B25AA00B58226 /* china.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33201A7B25AA00B58226 /* china.jpg */; };
+		774F332D1A7B25AA00B58226 /* China.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33211A7B25AA00B58226 /* China.swift */; };
+		774F33321A7B25C900B58226 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F332F1A7B25C900B58226 /* Dice.swift */; };
+		774F33331A7B25C900B58226 /* DiceRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33301A7B25C900B58226 /* DiceRollViewController.swift */; };
+		774F333A1A7B25E400B58226 /* india.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33341A7B25E400B58226 /* india.jpg */; };
+		774F333B1A7B25E400B58226 /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33351A7B25E400B58226 /* India.swift */; };
+		774F333C1A7B25E400B58226 /* thailand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33361A7B25E400B58226 /* thailand.jpg */; };
+		774F333E1A7B25E400B58226 /* unitedstates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33381A7B25E400B58226 /* unitedstates.jpg */; };
+		774F333F1A7B25E400B58226 /* worldmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774F33391A7B25E400B58226 /* worldmap.jpg */; };
+		774F33471A7B27EB00B58226 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33451A7B27EB00B58226 /* Country.swift */; };
+		774F33481A7B27EB00B58226 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33461A7B27EB00B58226 /* CountryViewController.swift */; };
+		774F33571A7B28C000B58226 /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33501A7B28C000B58226 /* dice1.png */; };
+		774F33581A7B28C000B58226 /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33511A7B28C000B58226 /* dice2.png */; };
+		774F33591A7B28C000B58226 /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33521A7B28C000B58226 /* dice3.png */; };
+		774F335A1A7B28C000B58226 /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33531A7B28C000B58226 /* dice4.png */; };
+		774F335B1A7B28C000B58226 /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33541A7B28C000B58226 /* dice5.png */; };
+		774F335C1A7B28C000B58226 /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33551A7B28C000B58226 /* dice6.png */; };
+		774F335D1A7B28C000B58226 /* felt.png in Resources */ = {isa = PBXBuildFile; fileRef = 774F33561A7B28C000B58226 /* felt.png */; };
+		774F335F1A7B291D00B58226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774F335E1A7B291D00B58226 /* Images.xcassets */; };
+		774F33611A7B297900B58226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774F33601A7B297900B58226 /* LaunchScreen.xib */; };
+		774F33671A7B2B2F00B58226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774F33661A7B2B2F00B58226 /* Main.storyboard */; };
+		774F33691A7B2BA200B58226 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F33681A7B2BA200B58226 /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +57,39 @@
 		77306CB31A14538200969E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77306CB41A14538200969E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77306CB61A14538200969E73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77306CB91A14538200969E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77306CBB1A14538200969E73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		77306CBE1A14538200969E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		77306CC41A14538200969E73 /* WorldTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77306CC91A14538200969E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77306CCA1A14538200969E73 /* WorldTravelerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTravelerTests.swift; sourceTree = "<group>"; };
+		774F33131A7B25AA00B58226 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		774F33151A7B25AA00B58226 /* australia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australia.jpg; sourceTree = "<group>"; };
+		774F33161A7B25AA00B58226 /* Australia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Australia.swift; sourceTree = "<group>"; };
+		774F331C1A7B25AA00B58226 /* brazil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brazil.jpg; sourceTree = "<group>"; };
+		774F331D1A7B25AA00B58226 /* Brazil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brazil.swift; sourceTree = "<group>"; };
+		774F331E1A7B25AA00B58226 /* canada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canada.jpg; sourceTree = "<group>"; };
+		774F331F1A7B25AA00B58226 /* Canada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canada.swift; sourceTree = "<group>"; };
+		774F33201A7B25AA00B58226 /* china.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = china.jpg; sourceTree = "<group>"; };
+		774F33211A7B25AA00B58226 /* China.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = China.swift; sourceTree = "<group>"; };
+		774F332F1A7B25C900B58226 /* Dice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		774F33301A7B25C900B58226 /* DiceRollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollViewController.swift; sourceTree = "<group>"; };
+		774F33341A7B25E400B58226 /* india.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = india.jpg; sourceTree = "<group>"; };
+		774F33351A7B25E400B58226 /* India.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
+		774F33361A7B25E400B58226 /* thailand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thailand.jpg; sourceTree = "<group>"; };
+		774F33381A7B25E400B58226 /* unitedstates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unitedstates.jpg; sourceTree = "<group>"; };
+		774F33391A7B25E400B58226 /* worldmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldmap.jpg; sourceTree = "<group>"; };
+		774F33451A7B27EB00B58226 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		774F33461A7B27EB00B58226 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		774F33501A7B28C000B58226 /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice1.png; sourceTree = "<group>"; };
+		774F33511A7B28C000B58226 /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice2.png; sourceTree = "<group>"; };
+		774F33521A7B28C000B58226 /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice3.png; sourceTree = "<group>"; };
+		774F33531A7B28C000B58226 /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice4.png; sourceTree = "<group>"; };
+		774F33541A7B28C000B58226 /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice5.png; sourceTree = "<group>"; };
+		774F33551A7B28C000B58226 /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice6.png; sourceTree = "<group>"; };
+		774F33561A7B28C000B58226 /* felt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felt.png; sourceTree = "<group>"; };
+		774F335E1A7B291D00B58226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		774F33601A7B297900B58226 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		774F33661A7B2B2F00B58226 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		774F33681A7B2BA200B58226 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +131,24 @@
 		77306CB11A14538200969E73 /* WorldTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				774F33681A7B2BA200B58226 /* ActivityViewController.swift */,
+				774F335E1A7B291D00B58226 /* Images.xcassets */,
+				774F33451A7B27EB00B58226 /* Country.swift */,
+				774F33601A7B297900B58226 /* LaunchScreen.xib */,
+				774F33461A7B27EB00B58226 /* CountryViewController.swift */,
+				774F33351A7B25E400B58226 /* India.swift */,
+				774F332F1A7B25C900B58226 /* Dice.swift */,
+				774F33301A7B25C900B58226 /* DiceRollViewController.swift */,
+				774F33131A7B25AA00B58226 /* Activity.swift */,
+				774F33161A7B25AA00B58226 /* Australia.swift */,
+				774F331D1A7B25AA00B58226 /* Brazil.swift */,
+				774F331F1A7B25AA00B58226 /* Canada.swift */,
+				774F33211A7B25AA00B58226 /* China.swift */,
 				77306CB41A14538200969E73 /* AppDelegate.swift */,
 				77306CB61A14538200969E73 /* ViewController.swift */,
-				77306CB81A14538200969E73 /* Main.storyboard */,
+				774F33661A7B2B2F00B58226 /* Main.storyboard */,
 				77306CBB1A14538200969E73 /* Images.xcassets */,
-				77306CBD1A14538200969E73 /* LaunchScreen.xib */,
+				774F33401A7B261800B58226 /* images */,
 				77306CB21A14538200969E73 /* Supporting Files */,
 			);
 			path = WorldTraveler;
@@ -110,6 +177,28 @@
 				77306CC91A14538200969E73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		774F33401A7B261800B58226 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				774F33501A7B28C000B58226 /* dice1.png */,
+				774F33511A7B28C000B58226 /* dice2.png */,
+				774F33521A7B28C000B58226 /* dice3.png */,
+				774F33531A7B28C000B58226 /* dice4.png */,
+				774F33541A7B28C000B58226 /* dice5.png */,
+				774F33551A7B28C000B58226 /* dice6.png */,
+				774F33561A7B28C000B58226 /* felt.png */,
+				774F33201A7B25AA00B58226 /* china.jpg */,
+				774F331E1A7B25AA00B58226 /* canada.jpg */,
+				774F331C1A7B25AA00B58226 /* brazil.jpg */,
+				774F33151A7B25AA00B58226 /* australia.jpg */,
+				774F33361A7B25E400B58226 /* thailand.jpg */,
+				774F33381A7B25E400B58226 /* unitedstates.jpg */,
+				774F33391A7B25E400B58226 /* worldmap.jpg */,
+				774F33341A7B25E400B58226 /* india.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +281,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77306CBA1A14538200969E73 /* Main.storyboard in Resources */,
-				77306CBF1A14538200969E73 /* LaunchScreen.xib in Resources */,
+				774F333C1A7B25E400B58226 /* thailand.jpg in Resources */,
+				774F33581A7B28C000B58226 /* dice2.png in Resources */,
+				774F332C1A7B25AA00B58226 /* china.jpg in Resources */,
+				774F33571A7B28C000B58226 /* dice1.png in Resources */,
+				774F332A1A7B25AA00B58226 /* canada.jpg in Resources */,
+				774F335B1A7B28C000B58226 /* dice5.png in Resources */,
+				774F335C1A7B28C000B58226 /* dice6.png in Resources */,
+				774F33281A7B25AA00B58226 /* brazil.jpg in Resources */,
+				774F335F1A7B291D00B58226 /* Images.xcassets in Resources */,
+				774F335A1A7B28C000B58226 /* dice4.png in Resources */,
+				774F335D1A7B28C000B58226 /* felt.png in Resources */,
+				774F333F1A7B25E400B58226 /* worldmap.jpg in Resources */,
+				774F333E1A7B25E400B58226 /* unitedstates.jpg in Resources */,
+				774F333A1A7B25E400B58226 /* india.jpg in Resources */,
+				774F33241A7B25AA00B58226 /* australia.jpg in Resources */,
+				774F33591A7B28C000B58226 /* dice3.png in Resources */,
+				774F33611A7B297900B58226 /* LaunchScreen.xib in Resources */,
+				774F33671A7B2B2F00B58226 /* Main.storyboard in Resources */,
 				77306CBC1A14538200969E73 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774F33221A7B25AA00B58226 /* Activity.swift in Sources */,
+				774F332D1A7B25AA00B58226 /* China.swift in Sources */,
+				774F33321A7B25C900B58226 /* Dice.swift in Sources */,
 				77306CB71A14538200969E73 /* ViewController.swift in Sources */,
+				774F33471A7B27EB00B58226 /* Country.swift in Sources */,
 				77306CB51A14538200969E73 /* AppDelegate.swift in Sources */,
+				774F33251A7B25AA00B58226 /* Australia.swift in Sources */,
+				774F33331A7B25C900B58226 /* DiceRollViewController.swift in Sources */,
+				774F33691A7B2BA200B58226 /* ActivityViewController.swift in Sources */,
+				774F33291A7B25AA00B58226 /* Brazil.swift in Sources */,
+				774F332B1A7B25AA00B58226 /* Canada.swift in Sources */,
+				774F333B1A7B25E400B58226 /* India.swift in Sources */,
+				774F33481A7B27EB00B58226 /* CountryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +350,6 @@
 			targetProxy = 77306CC51A14538200969E73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		77306CB81A14538200969E73 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77306CB91A14538200969E73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		77306CBD1A14538200969E73 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77306CBE1A14538200969E73 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		77306CCC1A14538200969E73 /* Debug */ = {
@@ -405,6 +502,7 @@
 				77306CD01A14538200969E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77306CD11A14538200969E73 /* Build configuration list for PBXNativeTarget "WorldTravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +511,7 @@
 				77306CD31A14538200969E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
